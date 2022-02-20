@@ -1,0 +1,4 @@
+/**/*.exe
+/**/main.cpp
+/**/json.hpp
+/**/*.json
