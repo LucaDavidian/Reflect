@@ -220,7 +220,7 @@ namespace Reflect
 	};
 
 
-	/******** reflected data members ********/
+	/******** reflected data member ********/
 	class DataMember
 	{
 	public:
@@ -395,8 +395,8 @@ namespace Reflect
 	};
 
 
-	/******** reflected member functions ********/
-		class Function
+	/******** reflected member function ********/
+	class Function
 	{
 	public:
 		std::string GetName() const { return mName; }
@@ -633,7 +633,7 @@ namespace Reflect
 	};
 
 
-	/******** reflected base classes ********/
+	/******** reflected base class ********/
 	class Base
 	{
 	public:
@@ -663,7 +663,7 @@ namespace Reflect
 	};
 
 
-	/******** reflected conversion functions ********/
+	/******** reflected conversion function ********/
 	class Conversion
 	{
 	public:
